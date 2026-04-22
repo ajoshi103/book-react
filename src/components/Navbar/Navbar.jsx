@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className='navbar' id = "navbar">
       <div className='container navbar-content flex'>
-        <div className='brand-and-toggler flex flex-sb'>
+        <div className='brand-and-toggler flex flex-sb'> Discover a world of books with BookHub. Search your favorite titles, explore authors, and uncover hidden literary gems — all in one place!
           <Link to = "/" className='navbar-brand flex'>
             <img src = {logoImg} alt = "site logo" />
             <span className='text-uppercase fw-7 fs-24 ls-1'>bookhub</span>
